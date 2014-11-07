@@ -73,18 +73,33 @@ public class OrderTotal {
 7. 
 
 a) x && y || !a && !b;
-b) if (x != 7 && x < 7) {
+b) if (x != 7 || x <= 7) {
 
 8. 
 
-a) if (x + 2 > a || x -2 < b && y >= 0){
-b) if (a >= b) && a >= c && a % 2 == 0){
+a) if ((x + 2 > a || x - 2 < b) && y >= 0){
+b) if (a >= b && a >= c && a % 2 == 0){
 
 10. 
 
-public boolean geoSequence(boolean doesEqual, int a, int b, int c){
-	if(a != 0 && b != 0 && c != 0
+public boolean geoSequence(int a, int b, int c){
+	if(a == 0 || b == 0 || c == 0){
+		return false;
+	}
+	else if(a * c == b * b){
+		return true
+	}
+	else{
+		return false;
+	}
 	
+11. 
+
+a) boolean inside = (x >= left && x <= right && y >= top && y <= bottom);
+
+b) boolean no = (ch[0] == 'N' || ch[0] == 'n') && (ch[0] == 'O' || ch[0] == 'o');
+
+Helped by my friend Will.
 
 
 
