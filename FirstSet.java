@@ -53,7 +53,7 @@ public class OrderTotal {
 			return 14.00 * nb + bp * 14.00;
 		}
 		else {
-				return bp * 15.95 + nb * 15.95;
+			return bp * 15.95 + nb * 15.95;
 		}
 	}
 	
@@ -69,6 +69,22 @@ public class OrderTotal {
 		
 	}
 }
+
+7. 
+
+a) x && y || !a && !b;
+b) if (x != 7 && x < 7) {
+
+8. 
+
+a) if (x + 2 > a || x -2 < b && y >= 0){
+b) if (a >= b) && a >= c && a % 2 == 0){
+
+10. 
+
+public boolean geoSequence(boolean doesEqual, int a, int b, int c){
+	if(a != 0 && b != 0 && c != 0
+	
 
 
 
